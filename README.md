@@ -1,5 +1,7 @@
 # docker-angular
 
+[![Docker Pulls](https://img.shields.io/docker/pulls/gilhardl/angular.svg)](https://hub.docker.com/r/gilhardl/angular/)
+
 Docker image for Angular development
 
 ----------------------------------------
@@ -17,8 +19,6 @@ Docker image for Angular development
 **Package manager:** yarn
 
 ----------------------------------------
-
-[![Docker Pulls](https://img.shields.io/docker/pulls/gilhardl/angular.svg)](https://hub.docker.com/r/gilhardl/angular/)
 
 
 # Usage
