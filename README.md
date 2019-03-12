@@ -20,8 +20,6 @@ Docker image for Angular development
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/gilhardl/angular.svg)](https://hub.docker.com/r/gilhardl/angular/)
 
-----------------------------------------
-
 
 # Usage
 
