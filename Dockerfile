@@ -20,6 +20,6 @@ RUN apk add yarn
 
 RUN yarn global add @angular/cli@7.3.5
 
-EXPOSE 4200 35729
+EXPOSE 4200 49153
 
 WORKDIR $APP_DIR
