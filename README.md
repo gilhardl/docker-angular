@@ -1,6 +1,6 @@
 # docker-angular
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/gilhardl/angular.svg)](https://hub.docker.com/r/gilhardl/angular/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/gilhardl/angular.svg?style=flat-square)](https://hub.docker.com/r/gilhardl/angular/)
 
 Docker image for Angular development
 
