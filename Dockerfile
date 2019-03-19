@@ -7,7 +7,7 @@ LABEL author="Lucas GILHARD <l.gilhard@gmail.com>"
 LABEL version="7.3.6"
 LABEL description="Docker image for Angular development"
 
-WORKDIR "/usr/src/app/"
+WORKDIR /usr/src/app/
 
 USER root
 
@@ -22,9 +22,9 @@ RUN apk update \
 RUN rm -rf ~/.npm \
   && npm cache verify \
   && echo "unsafe-perm = true" >> ~/.npmrc \
-  && mkdir ~/.npm-global \
-  && npm config set prefix '~/.npm-global' \
-  && echo "export PATH=~/.npm-global/bin:$PATH" >> ~/.profile
+  && npm config set prefix '/usr/local/share/.npm-global' \
+  && echo "export PATH=/usr/local/share/.npm-global/bin:$PATH" >> ~/.bashrc \
+  && echo "PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '" >> ~/.bashrc
 
 # Yarn
 RUN apk add yarn
