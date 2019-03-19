@@ -25,9 +25,7 @@ RUN apk add yarn
 # NPM setup
 RUN rm -rf ~/.npm \
   && npm cache verify \
-  && echo "unsafe-perm = true" >> ~/.npmrc \
-  && npm config set prefix '$(yarn global bin)' \
-  && echo "export PATH=$(yarn global bin):$PATH" >> ~/.bashrc
+  && echo "unsafe-perm = true" >> ~/.npmrc
 
 
 # Angular
