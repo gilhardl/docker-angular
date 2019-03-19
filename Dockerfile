@@ -1,7 +1,7 @@
 ARG NODE_VERSION=10.15
-ARG ANGULAR_VERSION=7.3.6
-
 FROM gilhardl/node:$NODE_VERSION
+
+ARG ANGULAR_VERSION=7.3.6
 
 LABEL author="Lucas GILHARD <l.gilhard@gmail.com>"
 LABEL version="7.3.6"
