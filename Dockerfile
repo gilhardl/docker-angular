@@ -1,12 +1,13 @@
 ARG NODE_VERSION=10.15
-ARG ANGULAR_VERSION=7.3.5
-ARG APP_DIR="/usr/src/app"
+ARG ANGULAR_VERSION=7.3.6
 
 FROM node:$NODE_VERSION-alpine
 
 LABEL author="Lucas GILHARD <l.gilhard@gmail.com>"
-LABEL version="1.0.1"
+LABEL version="7.3.6"
 LABEL description="Docker image for Angular development"
+
+WORKDIR "/usr/src/app/"
 
 USER root
 
@@ -33,6 +34,4 @@ RUN yarn global add @angular/cli@$ANGULAR_VERSION
 
 EXPOSE 4200 49153
 
-WORKDIR $APP_DIR
-
-CMD ["/bin/bash"]
+CMD ["bash"]
