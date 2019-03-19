@@ -6,7 +6,7 @@ Docker image for Angular development
 
 ----------------------------------------
 
-**Angular CLI :** 7.3.5
+**Angular CLI :** 7.3.6
 
 **Node.js :** v10.15.3
 
@@ -24,10 +24,8 @@ Docker image for Angular development
 # Usage
 
 ```
-docker run -it --name ANGULAR -v /c/Users/LG/Work:/app -p 4200:4200 -p 49153:49153 gilhardl/angular sh
+docker run -it --name ANGULAR -v /path/to/your/project:/usr/src/app -p 4200:4200 -p 49153:49153 gilhardl/angular
 ```
-
-Then you should be able to use Angular CLI from your container shell
 
 ### Serving your app
 
@@ -37,7 +35,7 @@ In order to get livereload working, you'll need to define the file watching poll
 ng serve --host=0.0.0.0 --poll 1
 ```
 
-You need to specify `0.0.0.0` to access your app from your host browser
+You need to specify `0.0.0.0` to get access from your host browser
 
 # Licence
 
