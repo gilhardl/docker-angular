@@ -2,9 +2,9 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/gilhardl/angular.svg?style=flat-square)](https://hub.docker.com/r/gilhardl/angular/)
 
-Docker image for Angular development
+Docker image for Angular development, based on [gilhardl/node](https://github.com/gilhardl/docker-node)
 
-----------------------------------------
+---
 
 **Angular CLI :** 7.3.6
 
@@ -18,8 +18,7 @@ Docker image for Angular development
 
 **Package manager:** yarn
 
-----------------------------------------
-
+---
 
 # Usage
 
