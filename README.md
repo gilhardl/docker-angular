@@ -2,6 +2,8 @@
 
 Docker image for Angular development, based on [gilhardl/node](https://github.com/gilhardl/docker-node)
 
+Built to help building Angular app on Windows with Docker Desktop to get a fully working Linux development environnement. 
+
 [![Docker Pulls](https://img.shields.io/docker/pulls/gilhardl/angular.svg?style=flat-square&label=PULLS)](https://hub.docker.com/r/gilhardl/angular/)
 
 ---
